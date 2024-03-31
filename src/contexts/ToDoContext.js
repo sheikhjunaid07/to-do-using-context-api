@@ -12,7 +12,7 @@ export const ToDoContext = createContext({
   addTodo: (todo) => {},
   updateTodo: (id, todo) => {},
   deleteTodo: (id) => {},
-  toggleComplete: (id) => {},
+  toggleCompleted: (id) => {},
 });
 
 export const ToDoProvider = ToDoContext.Provider;
